@@ -1,7 +1,7 @@
 $(document).ready(
     $("th").hover(
-        () => this.classAdd("table-active"),
-        () => this.classRemove("table-active")
+        () => $(this).addClass("table-primary"),
+        () => $(this).removeClass("table-primary")
     )
 )
 
