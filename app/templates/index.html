@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{%block title%}{%endblock%}
+
+{%block main_content%}
+<div class="container">
+
+	<div id="content-div" class="row span12" style="margin-top: 40px">
+		<div class="col-lg-4">
+			<h3 id="hola">Hola</h3>
+			<p>This is Cross Entropy Solutions</p>
+			<footer class="blockquote-footer"> This is the cross entropy footer</footer>
+		</div>
+	</div>
+
+	<div class="row span4">
+		<button id="clickme" type="button" class="btn btn-sm "> Click Me</button>
+	</div>
+
+
+
+</div>
+</div>
+<script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+
+
+{%endblock%}
