@@ -20,6 +20,6 @@ WTForms==1.0.3
 Werkzeug==0.8.3
 argparse==1.2.1
 blinker==1.2
-pymongo==2.5.1
+pymongo==2.5.2
 python-dateutil==1.5
 wsgiref==0.1.2
